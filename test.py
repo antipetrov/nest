@@ -1,5 +1,5 @@
 import pytest
-from nest import make_nested_dicts, dictify, DictifyError
+from nesting.nest import make_nested_dicts, dictify, DictifyError
 
 
 @pytest.fixture(scope='function')

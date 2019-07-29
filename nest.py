@@ -49,6 +49,9 @@ def make_nested_dicts(data, keys, level=0):
     :return:
     """
 
+    if not keys:
+        return data
+
     if level >= len(keys):
         return data
 
